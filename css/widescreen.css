@@ -1,0 +1,59 @@
+.btn {
+   margin: 2rem;
+}
+
+.card {
+    margin: 1rem;
+}
+
+/* SHOWCASE */
+#showcase {
+    background: #f3f3f3;
+    padding-bottom: 10rem;
+}
+
+#showcase .l-heading {
+    padding-top: 8rem;
+    font-size: 3rem;
+}
+
+#showcase .showcase-content p {
+    padding: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+/* WHAT WE OFFER:  */
+#offer {
+    padding-top: 4rem;
+    border-top: 1px solid #ccc;
+}
+
+#offer .offer-items .card p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* CHOOSE YOUR OFFER */
+#plan-section .offer-items {
+    display: flex;
+}
+
+/* REVIEW */
+#reviews .review-content {
+    display: flex;
+    flex-direction: row;
+}
+
+#reviews .review-content .card {
+    text-align: center;
+    margin-bottom: 2.75rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    flex: 1;
+}
+
+/* FOOTER: Increase the font-size of the text */
+#main-footer .footnote {
+    font-size: 0.85rem;
+}

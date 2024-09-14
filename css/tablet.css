@@ -1,0 +1,27 @@
+/* SHOWCASE */
+#showcase {
+    background: #f3f3f3;
+    padding-bottom: 10rem;
+    border-bottom: 1px solid #ccc;
+}
+
+#showcase .l-heading {
+    padding-top:8rem;
+}
+
+#showcase .showcase-content p {
+    margin-bottom: 1.5rem;
+}
+
+
+/* WHAT WE OFFER: setting card display to column */
+#offer .offer-items {
+    display: flex; 
+    flex-direction: column;
+    padding-top: 1.75rem; 
+}
+
+/* CHOOSE YOUR PLAN: setting card to display in row */
+#plan-section .offer-items {
+    display: flex;
+}

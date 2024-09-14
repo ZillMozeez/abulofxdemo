@@ -1,0 +1,383 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN BODY */
+body {
+    font-family: system-ui;
+    line-height: 1.4;
+    background: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+/* UTILITIES */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem 2rem;
+    overflow: hidden;
+}
+
+.l-heading {
+    font-size: 3.5rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-primary {
+    color: #0f0fd8;
+}
+
+.py-1 { padding: 1.5rem 0;}
+.py-2 { padding: 2rem 0;}
+.py-3 { padding: 3rem 0;}
+
+.btn {
+    border: 1px solid #0707d8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.btn-color {
+    background: #0707d8;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 10px;
+    color: #f7f7f7;
+}
+
+.btn:hover {
+    background: #0707d8;
+    color: #f7f7f7;
+}
+
+.btn-color:hover {
+    color: #0707d8;
+    background: #f7f7f7;
+    border: 1px solid #0707d8;
+}
+
+.card {
+    background: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 1rem;
+}
+
+.p-bold {
+    font-weight: bold;
+}
+
+/* NAVBAR */
+#navbar {
+    background: #ccc;
+    color: #0707d8;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+    border-bottom: 0.8px solid #ccc;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul a {
+    color: #0707d8;
+    padding: 0.65rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul a:hover {
+    background: #0707d8;
+    color: #f8f8f8;
+    border-radius: 0.4rem;
+    padding: 0.5rem 0.65rem;
+}
+ 
+/* SHOWCASE */
+#showcase {
+    text-align: center;
+}
+
+#showcase .l-heading{
+    text-align: center;
+    color: #444;
+    padding-top: 3rem;
+    font-size: 2.5rem;
+}
+
+#showcase .showcase-content p {
+    color: #333;
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 1.65rem;
+}
+
+#showcase .showcase-content a {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* SECTION: WHAT WE OFFER - Using flex to align items horizontally */
+#offer h2 {
+    color: #333;
+}
+#offer p {
+    text-align: center;
+}
+#offer .offer-items {
+    display: flex;    
+}
+
+.offer-items .card {
+    text-align: center;
+    flex: 1;
+    padding-bottom: 2rem;
+}
+
+.offer-items .card p {
+    padding-bottom: 1rem;
+}
+
+/* SECTION: CHOOSE YOUR PLAN */
+
+#plan-section h1,
+#plan-section h2 {
+    color: #333;
+}
+#plan-section p {
+    text-align: center;
+}
+
+#plan-section .card h3 {
+    padding: 0.75rem 0;
+    color: #333;
+}
+
+#plan-section .card p {
+    color: #444;
+    padding: 0.75rem 0.5rem;
+}
+
+#plan-section .card ul {
+    text-align: left;
+    list-style: circle;
+    padding-left: 3rem;
+    line-height: 1.95;
+    margin-bottom: 1.95rem;
+}
+
+/* FREE COURSE SECTION */
+#courses {
+    text-align: center;
+}
+
+#courses .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#courses h2 {
+    padding-bottom: 2rem;
+    color: #333;
+}
+
+#courses .signal-img {
+    margin-top: 2.85rem;
+    height: 400px;
+    width: 100%;
+    background: url('../img/signals.jpg') no-repeat center center/cover;
+}
+
+/* STATS */
+#stats {
+    display: flex;
+    justify-content: space-evenly;
+    background: #333;
+    color: #f7f7f7;
+}
+
+#stats .stats-figures {
+    text-align: center;
+    padding: 2.85rem 0;
+    line-height: 1.2;
+}
+
+/* REVIEWS */
+#reviews h2 {
+    text-align: center;
+    padding: 2rem;
+    color: #222;
+}
+
+#reviews .review-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: space-evenly; */
+}
+
+#reviews .reviewer {
+    display: flex;
+    text-align: left;
+    margin-bottom: 0.75rem;
+}
+
+#reviews p:nth-child(2) {
+    text-align: left;
+}
+#reviews .reviewer .reviewer-img02 {
+    height: 5rem;
+    width: 4rem;
+    background: url('../img/Passport.jpg') no-repeat center center/cover;
+    border: 2px solid #0707d8;
+    border-radius: 0.75rem;
+    margin-right: 1rem;
+}
+
+#reviews .reviewer .reviewer-img01 {
+    height: 5rem;
+    width: 4rem;
+    background: #bbb;
+    border: 2px solid #0707d8;
+    border-radius: 0.75rem;
+    margin-right: 1rem;
+}
+
+/* NEWSLETTER */
+#newsletter {
+    text-align: center;
+    background: #2323d8;
+}
+
+#newsletter .sub-newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+#newsletter .sub-newsletter h2 {
+    color: #f7f7f7;
+    margin-bottom: 1.85rem;
+}
+
+#newsletter .sub-newsletter #email {
+    padding: 0.45rem 1rem;
+    width: 65%;
+    border-radius: 5px;
+    border: 2px solid #bbb;
+    margin-bottom: 2rem;
+}
+
+#newsletter .sub-newsletter .btn-color {
+    background: #030368;
+}
+
+#newsletter .sub-newsletter .btn-color:hover {
+    background: #040496;
+    color: #f7f7f7;
+    border: #f7f7f7;
+}
+
+/* DISCLAIMER SECTION */
+#disclaimer {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#disclaimer ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #ccc;
+}
+
+/* ENROLL */
+#enroll-page h3 {
+    margin-bottom: 1.65rem;
+}
+
+#enroll-page h1 {
+    color: #333;
+}
+
+#enroll-page .enroll-form {
+    font-size: 0.85rem;
+}
+
+#enroll-page .form-group {
+    margin-bottom: 1.25rem;
+}
+
+#enroll-page .form-group input {
+    width: 50%;
+    padding: 0.65rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#enroll-page input {
+    margin-left: 0px;
+}
+
+/* MAIN FOOTER */
+#main-footer {
+    background: #ddd;
+    padding: 0.65rem 0;
+}
+
+#main-footer .p-lead,
+#main-footer .p-min {
+    padding-left: 2rem;
+    font-size: 0.85rem;
+}
+
+#main-footer .footnote {
+    display: flex;
+    background: #ccc;
+    border-top: #ddd;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    font-size: 0.75rem;
+}
+
+#main-footer .footnote ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#main-footer .footnote ul a {
+    padding: 1rem 0.5rem;
+} 
