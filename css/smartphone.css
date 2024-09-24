@@ -1,0 +1,55 @@
+/* NAVBAR: Reducing the font-size to fit smartphone screen */
+#navbar .logo {
+    font-size: 0.95rem;
+}
+
+#navbar ul {
+    font-size: 0.85rem;
+}
+
+/* WHAT WE OFFER */
+#offer .offer-items {
+    display: flex;
+    flex-direction: column;    
+}
+
+/* CHOOSE YOUR PLAN: setting margin for first child to create space between cards */
+#plan-section .card:first-child {
+    margin-bottom: 1rem;
+}
+
+/* STATS: setting display to flex */
+#stats {
+    display: flex;
+    flex-direction: column;
+}
+
+#stats .stats-figures:nth-child(2) {
+    padding: 1rem 0;
+}
+
+/* REVIEWS: setting margin for first child to create space between cards */
+#reviews .card:first-child {
+    margin-bottom: 1rem;
+}
+
+/* NEWSLETTER: setting the input fill and sub button to display in column */
+#newsletter .sub-newsletter .sub-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+#newsletter .sub-newsletter #email {
+    width: 100%;
+}
+
+/* ENROLL: setting width to 100% */
+#enroll-page .form-group input {
+    width: 100%;
+}
+
+/* FOOTER: setting the foot note to display in column */
+#main-footer .footnote {
+    flex-direction: column;
+    align-items: center;
+}

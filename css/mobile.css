@@ -1,39 +1,39 @@
 /* NAVBAR: Reducing the font-size to fit smartphone screen */
 #navbar .logo {
-    /* margin-bottom: 1rem; */
-    font-size: 0.95rem;
+    font-size: 0.75rem;
 }
 
 #navbar ul {
     /* flex-direction: column;
     line-height: 1.85; */
-    font-size: 0.95rem;
+    font-size: 0.65rem;
 }
 
-/* WHAT WE OFFER */
+/* WHAT WE OFFER: setting card display to column */
 #offer .offer-items {
-    display: flex;
-    flex-direction: column;    
+    display: flex; 
+    flex-direction: column;
+    padding-top: 1.75rem; 
 }
 
-/* CHOOSE YOUR PLAN: setting margin for first child to create space between cards */
-#plan-section .card:first-child {
-    margin-bottom: 1rem;
-}
-
-/* REVIEWS: setting margin for first child to create space between cards */
-#reviews .card:first-child {
-    margin-bottom: 1rem;
-}
-
-/* NEWSLETTER: setting the input fill and sub button to display in column */
-#newsletter .sub-newsletter .sub-btn {
+/* STATS: setting display to flex */
+#stats {
     display: flex;
     flex-direction: column;
 }
 
-#newsletter .sub-newsletter #email {
-    width: 100%;
+#stats .stats-figures:nth-child(2) {
+    padding: 1rem 0;
+}
+
+/* DISCLAIMER: SET LIST LINKS TO COLUMN */
+#disclaimer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#disclaimer ul li {
+    padding: 0.5rem;
 }
 
 /* ENROLL: setting width to 100% */
@@ -42,7 +42,15 @@
 }
 
 /* FOOTER: setting the foot note to display in column */
+#main-footer .p-lead,
+#main-footer .p-min {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.85rem;
+}
+
 #main-footer .footnote {
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
