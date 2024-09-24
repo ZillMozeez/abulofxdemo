@@ -99,6 +99,10 @@ p {
     font-weight: bold;
 }
 
+a:visited {
+    color: #0707d8;
+}
+
 /* NAVBAR */
 #navbar {
     background: #ccc;
