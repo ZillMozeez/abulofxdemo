@@ -60,6 +60,12 @@ p {
     margin: 10px;
 }
 
+/* OVERRIDE THE VISITED STATE */
+.btn:visited {
+    border: 1px solid #0707d8;
+    color: #0707d8;
+}
+
 .btn-color {
     background: #0707d8;
     border: none;
