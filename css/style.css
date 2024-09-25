@@ -223,6 +223,10 @@ a:visited {
     color: #333;
 }
 
+#courses a {
+    color: #f7f7f7;
+}
+
 #courses .signal-img {
     margin-top: 2.85rem;
     height: 400px;
@@ -317,6 +321,10 @@ a:visited {
     background: #040496;
     color: #f7f7f7;
     border: #f7f7f7;
+}
+
+#newsletter .sub-newsletter a {
+    color: #f7f7f7;
 }
 
 /* DISCLAIMER SECTION */
